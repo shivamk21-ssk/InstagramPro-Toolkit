@@ -48,7 +48,7 @@
 
 ### 📦 Method 1: Windows (Recommended)
 
-1. Download/Clone this InstagramPro-ToolKit
+1. Download/Clone this InstagramPro-ToolKit Repository
 2. Extract the `.zip` file
 3. Run `Instagram_Pro.bat` as Administrator
 
