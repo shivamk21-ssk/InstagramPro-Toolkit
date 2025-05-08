@@ -46,19 +46,13 @@
 - ✅ **Windows OS**
 - The script checks and installs missing dependencies automatically.
 
-### 📦 Method 1: Download Release (Recommended)
+### 📦 Method 1: Windows (Recommended)
 
-1. Download the latest build from [Releases](https://github.com/yourusername/instagram-tools/releases)
+1. Download/Clone this InstagramPro-ToolKit
 2. Extract the `.zip` file
 3. Run `Instagram_Pro.bat` as Administrator
 
-### 💻 Method 2: Clone Repository
 
-```bash
-git clone https://github.com/yourusername/instagram-tools.git
-cd instagram-tools
-Instagram_Pro.bat
-```
 
 ---
 
